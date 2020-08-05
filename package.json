@@ -6,6 +6,7 @@
   "scripts": {
     "test": "test"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dryga94/frontend-project-lvl1.git"
