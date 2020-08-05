@@ -21,6 +21,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+    - name: npm install, build
+      # Install and build project
+      run: |
+        make install
     # Runs a set of commands using the runners shell
     - name: Run lint
       run: |
