@@ -1,6 +1,6 @@
 {
   "name": "first-hexlet-project-application-yd",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hexlet first project",
   "main": "",
   "bin": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/dryga94/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/dryga94/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/dryga94/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
