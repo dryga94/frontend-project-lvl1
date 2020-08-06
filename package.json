@@ -1,10 +1,11 @@
 {
   "name": "first-hexlet-project-application-yd",
-  "version": "1.1.0",
+  "version": "1.2.2",
   "description": "Hexlet first project",
   "main": "",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "test": "test"
