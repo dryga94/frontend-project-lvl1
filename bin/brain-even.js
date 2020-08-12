@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-import gameFlow from '../src/game-flow.js';
+import gameFlow from '../src/games/game-flow.js';
 
-console.log('Welcome to brain games!');
+import { sayHi, sayBy } from '../src/index.js';
 
-gameFlow();
+sayHi();
+
+sayBy(gameFlow());
